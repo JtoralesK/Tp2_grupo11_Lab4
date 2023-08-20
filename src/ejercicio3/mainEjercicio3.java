@@ -16,7 +16,7 @@ public class mainEjercicio3 {
 			while (iterador.hasNext()) {
 				Edificio edificio = iterador.next();
 				System.out.println(edificio.toString());
-			}*
+			}
 	}
 
 }

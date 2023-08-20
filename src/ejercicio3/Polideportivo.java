@@ -5,8 +5,8 @@ public class Polideportivo extends Edificio implements InstalacionDeportiva {
 	private int tipoDeInstalacion=0;
 	@Override
 	public String toString() {
-		return "Polideportivo [nombre=" + nombre + ", getTipoDeInstalacion()=" + getTipoDeInstalacion()
-				+ ", getSuperficeEdificio()=" + getSuperficeEdificio() + "]";
+		return "Polideportivo [nombre=" + nombre + ", tipoDeInstalacion=" + getTipoDeInstalacion()
+				+ ", superficie=" + getSuperficeEdificio() + "]";
 	}
 
 	public Polideportivo(double superficeEdificio,String nombre) {
