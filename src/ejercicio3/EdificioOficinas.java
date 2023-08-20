@@ -18,7 +18,7 @@ public class EdificioOficinas extends Edificio{
 
 	@Override
 	public String toString() {
-		return "EdificioOficinas cantidad de oficinas: " + oficinas+ ", superficie: "+this.getSuperficie();
+		return "EdificioOficinas cantidad de oficinas: " + oficinas+ ", superficie: "+this.getSuperficeEdificio();
 	}
 	
 	
