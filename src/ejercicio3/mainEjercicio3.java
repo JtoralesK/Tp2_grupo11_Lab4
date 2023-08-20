@@ -5,7 +5,7 @@ import java.util.Iterator;
 
 public class mainEjercicio3 {
 	public static void main (String[] args) {
-		 /*ArrayList<Edificio> edificios = new ArrayList<Edificio>();
+		 ArrayList<Edificio> edificios = new ArrayList<Edificio>();
 		 edificios.add(new Polideportivo(1000.2,"Polideportivo A")) ;
 		 edificios.add(new Polideportivo(2100,"Polideportivo B")) ;
 		 edificios.add(new Polideportivo(505.2,"Polideportivo C")) ;
@@ -16,7 +16,7 @@ public class mainEjercicio3 {
 			while (iterador.hasNext()) {
 				Edificio edificio = iterador.next();
 				System.out.println(edificio.toString());
-			}*/
+			}*
 	}
 
 }

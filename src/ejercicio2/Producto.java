@@ -2,15 +2,20 @@ package ejercicio2;
 
 import java.time.LocalDate;
 
-public class Producto {
+public abstract class Producto {
 	
 	private LocalDate fechaCaducidad;
 	private int lote;
 	
-	public Producto()
+	public Producto() {
+		String fecha="0000-00-00" ;
+		this.fechaCaducidad=LocalDate.parse(fecha);
+		this.lote=0;
+	}
 
-	public Producto(LocalDate fechaCaducidad, int lote) {
-		this.fechaCaducidad = fechaCaducidad;
+
+	public Producto(String fechaCaducidad, int lote) {
+		this.fechaCaducidad = LocalDate.parse(fechaCaducidad);
 		this.lote = lote;
 	}
 	public LocalDate getFechaCaducidad() {
@@ -28,7 +33,7 @@ public class Producto {
 	
 	@Override
 	public String toString() {
-		return "Producto [fechaCaducidad=" + fechaCaducidad + ", lote=" + lote + "]";
+		return "Fechade caducidad:" + fechaCaducidad + ", lote:" + lote + "";
 	}
 	
 	

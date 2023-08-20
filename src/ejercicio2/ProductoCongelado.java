@@ -8,11 +8,29 @@ public class ProductoCongelado extends Producto{
 	public ProductoCongelado()
 	{
 		super();
-		
+		this.temperaturaCongelacion=0;
 	}
 
-	public ProductoCongelado(LocalDate fechaCaducidad, int lote, int temperaturaCongelacion) {
+	public ProductoCongelado(String fechaCaducidad, int lote, int temperaturaCongelacion) {
 		super(fechaCaducidad, lote);
 		this.temperaturaCongelacion = temperaturaCongelacion;
 	}
+
+	public int getTemperaturaCongelacion() {
+		return temperaturaCongelacion;
+	}
+
+	public void setTemperaturaCongelacion(int temperaturaCongelacion) {
+		this.temperaturaCongelacion = temperaturaCongelacion;
+	}
+
+	@Override
+	public String toString() {
+		return "ProductoCongelado [temperatura Congelacion=" + temperaturaCongelacion + ", Fecha Caducidad()="
+				+ getFechaCaducidad() + ", Lote()=" + getLote() + "]";
+	}
+	
+	
+	
+	
 }
