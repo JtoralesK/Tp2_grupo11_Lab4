@@ -15,10 +15,9 @@ public class Polideportivo extends Edificio implements InstalacionDeportiva {
 		// TODO Auto-generated constructor stub
 	}
 
-	@Override
 	public int getTipoDeInstalacion() {
 		// TODO Auto-generated method stub
-		 this.tipoDeInstalacion;
+		 return this.tipoDeInstalacion;
 	}
 	
 	public String getNombre() {
@@ -28,4 +27,5 @@ public class Polideportivo extends Edificio implements InstalacionDeportiva {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
+	
 }
